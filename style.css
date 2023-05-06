@@ -2,6 +2,7 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
+    overflow:visible;
 }
 body{
     background-color:beige;
@@ -12,15 +13,15 @@ body{
     background-color:#000;
     text-align: center;
     color:#fff;
-    font-size:3.5rem;
+    font-size:3.3rem;
     font-family:fantasy;
 }
 
 .main-section{
-    height:50vh;
+    height:65vh;
     width:70%;
     position: relative;
-    top:70px;
+    top:60px;
     left:15%;
     border:2px solid green;
 }
@@ -38,7 +39,7 @@ body{
     margin-top:40px;
 }
 .form-section div input{
-    width:30%;
+    width:50%;
     margin-bottom:25px;
     padding:9px 25px;
     font-size: 1rem;
@@ -83,5 +84,24 @@ body{
     text-transform: capitalize;
 }
 
+
+
+
+@media screen and (max-width:1000px){
+    .heading-section{
+        font-size:2.5rem;
+        padding-top:8px;
+    }
+    .form-section div input{
+        width:75%;
+    }
+}
+
+@media screen and (max-width:550px){
+    .main-section{
+        width:80%;
+        left:10%;
+    }
+}
 
 
