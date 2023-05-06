@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width initial-scale=1.0">
+    <title>BMI Calculater</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="media.css"> -->
+</head>
+
+<body>
+    <header>
+        <div class="heading-section">
+            <p>BMI Calculater</p>
+        </div>
+    </header>
+
+    <main>
+        <div class="main-section">
+            <div class="section-heading">
+                <p>check your BMI</p>
+            </div>
+
+            <div class="form-section">
+                <div>
+                    <input type="number" value="" placeholder="Enter your weight(KG)" id="weightfield" required>
+                </div>
+                <div>
+                    <input type="number" value="" placeholder="Enter your height(CM)" id="heightfield" required>
+                </div>
+                <div>
+                    <input type="submit" onclick="result()" id="btn">
+                </div>
+                <div>
+                    <input type="number" value="" placeholder="Your BMI" id="result">
+                </div>
+                <div class="result-section">
+                    <p id="totalbmi"></p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-section">
+            <p>copyright 2023 all right reserved</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
