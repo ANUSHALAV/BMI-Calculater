@@ -5,7 +5,7 @@
     overflow:visible;
 }
 body{
-    background-color:beige;
+    background-color:#bdc3c7;
 }
 .heading-section{
     margin-top:10px;
@@ -18,15 +18,17 @@ body{
 }
 
 .main-section{
-    height:65vh;
+    height:50vh;
     width:70%;
     position: relative;
     top:60px;
     left:15%;
-    border:2px solid green;
+    background:#6fb3e0;
+    box-shadow: 0 0 10px black;
+    border-radius: 20px;
 }
 .main-section .section-heading{
-    background-color:#dd67a4;
+    background-color:#2ecc71;
     color:white;
     padding-block:5px;
     text-align: center;
