@@ -9,7 +9,7 @@ body{
 }
 .heading-section{
     margin-top:10px;
-    height:10vh;
+    height:fit-content;
     background-color:#000;
     text-align: center;
     color:#fff;
@@ -18,7 +18,7 @@ body{
 }
 
 .main-section{
-    height:55vh;
+    height:fit-content;
     width:70%;
     position: relative;
     top:60px;
